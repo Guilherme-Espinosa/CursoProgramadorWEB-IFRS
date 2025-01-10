@@ -1,0 +1,57 @@
+Listas
+
+No HTML a gente tem três tipos de listas: as listas ordenadas, desordenados e de definição.
+Olhando nos exemplos abaixo, a gente pode compreender como que funciona cada uma delas.
+Na lista ordenada os itens vão ser apresentados a partir do número 1 até o infinito, então o primeiro item recebe número 1, depois dois, três, quatro, cinco e assim por diante.
+Em uma lista desordenada os itens são organizados através de marcadores, como, por exemplo, o símbolo do círculo.
+Então, vai ser apresentado o item 1, 2, 3, todos eles marcado com um círculo, mas sem nenhum número para identificar.
+E na lista de definição ocorre apenas a identação desse item.
+Então, eu tenho primeiro item e posso agrupar os subitens a partir daquele primeiro.
+Para entender como funcionam essas tags das listas, vamos criar um exemplo de cada uma delas usando uma página HTML.
+Como base a gente vai utilizar a mesma página que a gente já usou nos exemplos anteriores colocando o corpo da página, o título e dentro da área da seção a gente vai criar as listas.
+A primeira lista que a gente vai criar é a lista ordenada para isso a gente começa com a tag ol para dizer que é uma lista ordenada e, a partir de então, podemos colocar os itens.
+Cada item vai ser definido através da tag li.
+Podemos colocar o item 1, fechamos esse item, colocamos o item 2 e logo fechamos (a tag li).
+Se quiserem colocar mais itens não tem problema podem colocar quantos quiserem.
+E aí fechamos a lista atravessa tag ol.
+Colocamos a nossa lista de itens, podemos salvar e visualizar como é que fica lá no navegador.
+Notem que aqui no navegador a gente tem o título da página “curso de HTML” e logo embaixo a lista ordenada com os itens 1 e 2.
+Percebam que ele já colocou o número 1 número 2 (antes do item). Como fica na tela:
+
+    Item 1
+    Item 2
+Se voltarmos ao código podemos colocar mais itens.
+Vou adicionar os itens 3 e 4.
+Vamos salvar e ao atualizar a página já aparecem os itens 3 e 4.
+Para fazer a lista desordenada é bem simples vamos voltar aqui no nosso código e ao invés de ol (para significar que uma lista ordenada) trocamos para ul e aí definimos que é uma lista não-ordenada, uma lista desordenada.
+Vamos salvar essa página, atualizar aqui no navegador e notem que já trocou os itens.
+Antes a gente tinha os itens de um, dois, três e quatro (1. Item 1; 2. Item 2 e assim por diante) e agora esses itens estão sendo identificados pelos marcadores, no caso essas bolinhas pretas.
+Como fica na tela:
+
+
+Item 1
+Item 2
+Então, a gente tem os itens já definidos pelas bolinhas até o infinito.
+Já as listas de definição são utilizadas quando a gente quer organizar informações, textos dentro de um item principal.
+As listas de definições no HTML são definidas pela tag dl onde então a gente pode ter um título que vai ser definido e uma descrição.
+Aqui no nosso exemplo, a gente está escrevendo dois itens que são bebidas.
+A gente tem a definição do título café e temos a definição do título leite.
+No caso do café ele tem duas descrições: ele é preto e é uma bebida quente.
+Já o leite é uma bebida branca.
+Notem que esse tipo de lista não vai colocar pontos, não vai colocar números.
+Apenas define, ajuda a descrever como é que funciona um item específico.
+Ao salvar esse conjunto de tags da nossa lista de definição lá para a página a gente vai visualizar aqui então o café por ser um título ele fica mais afastado dos outros itens e o preto e o quente já ganham uma identação, um recuo no parágrafo para dizer que o preto e o quente se referem ao café.
+Já a descrição branco se refere ao item leite.
+Vimos, então, três tipos de lista: a lista ordenada, desordenada e a por definição.
+Como fica na tela:
+
+Café
+
+	Preto
+
+	Quente
+
+Leite
+
+
+	Branco

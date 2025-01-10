@@ -1,0 +1,48 @@
+1.7.2 Exemplo 2: index.html, sobremim.html, contato.html
+Veja o segundo exemplo, agora de um site com 3 páginas e como elas se relacionam através dos links.
+
+<html>
+    <head>
+        <title>Index</title>
+    </head>
+    <body>
+        <header><h1>Curso de HTML</h1></header>
+        <nav>
+            <a href='sobremim.html'>Sobre mim</a><br>
+            <a href='contato.html'>Contato</a><br>
+        </nav>
+        <section>Aqui é o index</section>
+        <footer></footer>
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>Sobre mim</title>
+    </head>
+    <body>
+        <header><h1>Curso de HTML</h1></header>
+        <nav>
+            <a href='index.html'>Inicial</a><br>
+            <a href='contato.html'>Contato</a><br>
+        </nav>
+        <section>Aqui é o sobre mim</section>
+        <footer></footer>
+    </body>
+</html>
+
+<html>
+    <head>
+        <title>Contato</title>
+    </head>
+    <body>
+        <header><h1>Curso de HTML</h1></header>
+        <nav>
+            <a href='index.html'>Inicial</a><br>
+            <a href='sobremim.html'>Sobre mim</a><br>
+        </nav>
+        <section>Aqui é o contato</section>
+        <footer></footer>
+    </body>
+</html>
+Última atualização: terça, 20 jul 2021, 13:18

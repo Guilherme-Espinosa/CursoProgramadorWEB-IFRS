@@ -1,0 +1,2 @@
+Exercício 2: Site favorito
+Exercício 2: Construa uma página HTML que contenha um link para seu site favorito

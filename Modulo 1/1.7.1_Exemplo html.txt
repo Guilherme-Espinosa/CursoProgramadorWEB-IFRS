@@ -1,0 +1,17 @@
+1.7.1 Exemplo: pagina.html
+Veja o exemplo apresentado na aula sobre a pagina.html
+
+<html>
+    <head>
+        <title>Oi mundo</title>
+    </head>
+    <body>
+        <header><h1>Curso de HTML</h1></header>
+        <!-- Aqui tem comentário-->
+        <nav>Menu</nav>
+        <section><p>Estou aprendendo sobre <b>HTML</b>.<hr> O <i>HTML</i> é composto de tags. </p></section>
+        <footer>Rodapé</footer>
+    </body>
+</html>
+
+Última atualização: terça, 20 jul 2021, 13:18
