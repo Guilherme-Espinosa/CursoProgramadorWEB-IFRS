@@ -1,0 +1,56 @@
+1.19 Tabelas
+
+---
+Tabelas são estruturas contendo linhas e colunas onde se consegue organizar informações dentro de uma página HTML. 
+
+No vídeo a seguir será abordado sobre a estrutura de uma tabela e os parâmetros relacionados a ela. Além disso, você aprenderá como inserir um cabeçalho e um rodapé em uma tabela.
+
+---
+Tabelas
+
+Uma forma de organizar as informações dentro de páginas HTML são através de tabelas.
+As tabelas são estruturas contendo linhas e colunas onde e a gente vai organizar informação dentro dela como vocês podem ver nesse exemplo aí na tela de vocês a tabela não é constituída apenas de uma tag mas sim de um conjunto de várias tags.
+A gente pode construir tabelas bem simples ou mais elaboradas, mas vamos começar pelas mais simples no caso ali de uma tabela bem simples sem grandes configurações a gente pelo menos vai precisar de três tags a primeira delas é a tag table, ela que vai fazer delimitação da tabela com a borda mais no exterior definindo toda a área da tabela.
+Temos também a definição de linhas então para cada linha da nossa tabela a gente vai definir essa linha atravessa a tag tr, ou seja, quando a gente vai escrever uma tabela, ela sempre vai ser escrita linha por linha então eu vou colocar a primeira linha segunda terceira quarta e assim por diante e por último a gente tem a definição da célula, ou seja, a parte mais interior da nossa tabela onde a gente tem a tabela, a linha e dentro de cada linha as células que vão compor essa minha tabela.
+E se eu quiser por exemplo fazer uma tabela bem tradicional com duas linhas e duas colunas como a gente está vendo ali no navegador embaixo onde eu vou ter célula um dois três e quatro como que a gente montaria essas tags no HTML?
+Primeiro a gente vai definir a tag table que é uma só para definir todo o corpo da tabela logo na sequência a gente tem que pensar "poxa se eu quero uma tabela com duas linhas eu vou precisar de pelo menos duas tags tr" Então a primeira linha mostrando a tag tr aqui no início e no final e a segunda linha representada pelo segundo conjunto de tags tr de abertura e fechamento.
+Dentro das tags tr, aí sim, que vou definir quantas colunas, ou seja, quantas células eu quero colocar dentro de cada linha.
+No caso a gente vai fazer um exemplo com duas colunas então a gente coloca a primeira tag ali do td e a segunda tag td para definir a célula da esquerda e da direita logo na sequência a gente faz a mesma coisa, colocamos a célula 3 e a célula 4.
+Vamos ver esse exemplo na prática?
+Vamos programar?
+Então, aqui, a gente já tem nosso arquivo que eu vou abrir no Notepad++ com o nosso já formato padrão das sessões dos menus e dentro então da section, a gente vai começar a nossa tabela.
+Então o primeiro elemento que a gente precisa colocar é a tag table.
+Então vamos adicionar o table fazendo a abertura e o fechamento da table.
+E logo na sequência a gente vai criar uma tabela então da mesma forma de exemplo com duas linhas e duas colunas colocamos primeiro o tr da primeira linha o que já colocamos o tr da segunda linha nós vamos colocar então agora os nossos td da primeira e da segunda coluna então o primeiro td da coluna 1 e vamos já colocar linha 1 que é o nosso primeiro td.
+Vamos colocar o nosso segundo td que é a nossa coluna 2 da linha 1.
+Deixa-me abrir um pouquinho mais pra gente visualizar melhor.
+Então já temos aí coluna 1 e coluna 2 da linha 1.
+Vamos fazer agora a mesma coisa para linha 2.
+Então a gente tem ali coluna 1 e coluna 2 tanto para linha 1 quanto para linha 2.
+Vamos salvar esse arquivo e executar lá no navegador. Então aqui no nosso navegador vamos chamar página de tabela.
+E vocês vão ver que já ficou organizado aqui a coluna 1, coluna 2 para as linhas 1 e 2.
+Podem notar aqui que já tem o código fonte que a gente acabou de criar com os td e os tr para localizar as colunas e linhas da nossa tabela que estão aqui na nossa página.
+As tabelas também têm alguns parâmetros.
+A maioria dos parâmetros, se vocês forem pesquisar na internet, são parâmetros que já aconteciam no formato HTML 4 mas que agora no HTML 5 cairão em desuso.
+Então a gente não vai buscar utilizá-los, como por exemplo o espaçamento entre as células ou se a gente quiser colocar uma borda através do parâmetro border ou se quiser colocar uma cor de fundo.
+Essas informações que tinham nas tabelas antigas passaram para o CSS então a gente vai colocar tudo no CSS.
+Dentro do HTML só ficaram dois parâmetros o colspan e rowspan mas como é que funciona esses parâmetros?
+Melhor do que ficar explicando para vocês é vê-los na prática Vamos dar uma olhada no exemplo?
+Então voltando aqui para nossa tabela original onde a de gente tinha linhas e colunas eu vou colocar só um elemento que é ainda do HTML4 para vocês visualizarem melhor como é que funciona colspan e rowspan mas saibam que esse parâmetro que a gente vai usar aqui já está em desuso então não utilizem eles na página HTML, só vou colocar aqui para vocês como o teste só para gente ver o funcionamento das linhas e colunas.
+Então vou adicionar aqui na tag table border, então vou dizer que a borda tem largura 1 e se a gente carregar esse exemplo lá no navegador vocês vão conseguir visualizar de uma forma mais simples a borda da minha tabela então para cada coluna onde que estão as bordas.
+Então a gente tem que a coluna 1 na linha 1 e 2 e a coluna 2 aqui nas respectivas linhas e a gente vai adicionar uma terceira linha a essa nossa tabela, então vamos colocar aqui uma terceira linha.
+Só que essa nossa terceira linha a gente só vai querer uma única coluna, a gente não vai querer duas células (1 e 2), a gente só vai fazer uma linha específica uma linha contínua.
+Então na nossa linha três onde a gente vai querer que essa linha ocupe o espaço de duas células, mas que seja uma célula única para isso a gente pode usar o colspan, então o colspan vai significar que eu quero obter o espaço de duas células, três quatro, quantas vocês quiserem para compor uma célula única.
+Vou dizer que essa minha essa minha td na verdade não vai ser uma td mas sem duas td onde ela vai ocupar espaço de duas células respectivamente. Então aqui eu coloquei que eu quero colspan de dois.
+A gente vai voltar lá no navegador e vocês vão ver que agora a gente ao atualizar vai aparecer a terceira linha, então na linha três eu tenho uma célula ocupando duas colunas (a linha 1 e 2) se voltarmos lá no exemplo e tirar esse colspan vejam como é que vai ficar bem estranha a nossa tabela.
+A gente tira o colsapn, volta lá para o navegador e ao invés de ter uma célula bem larga a gente vai ter uma célula só e esse espaço ficaria em branco sem o colspan a nossa tabela fica bem estranha fica bem desagradável para os nossos olhos.
+Então a gente procura usar o colspan quando eu preciso ter uma coluna que tenha o tamanho maior, que ocupe mais uma célula, mais que uma coluna para ficar um trabalho mais bonito de visualização. Então podemos usar o colspan aqui nesse nosso exemplo e no caso do rowspan a gente pode fazer esse mesmo trabalho só que rowspan vai fazer a junção de duas células na posição vertical. Então, colspan pega a coluna do lado já o rowspan pega a linha de baixo.
+No caso do rowspan, eu teria que remover essa minha linha de baixo, então a gente vai juntar duas células (uma embaixo da outra) no nosso caso aqui a gente vai juntar essa coluna 2 com a coluna 2 debaixo, da A gente vai deixar uma coluna única sem divisão da linha 1 e 2, então vamos tirar essa coluna de baixo e na coluna aqui de cima a gente vai simplesmente colocar que a gente vai querer o espaço de duas células: a de cima e a de baixo.
+Através do rowspan que vai ocupar o espaço de duas células, então ao voltar aqui para o nosso exemplo se a gente atualizar agora a página essas duas células vão virar uma célula única. Então agora com a coluna 2 ocupando duas células (a de cima e a de baixo).
+Ainda a gente pode começar a criar tabelas mais sofisticadas com novos elementos que estão sendo adicionados no HTML.
+Esses elementos são: o thead que é para definir qual é a área de cabeçalho.
+Aqui em cima da nossa tabela a gente pode criar uma tabela com a área de cabeçalho e aí dentro do thead a gente ao invés de ter o td como célula a gente usa o th que significa que é o cabeçalho da nossa tabela.
+Notem que quando a gente usa th com esses valores na tabela ele já vai ficar negritado porque ele sabe que é um cabeçalho e por ser um cabeçalho eu preciso dar um destaque, preciso diferenciar ele do resto tabela.
+Na segunda parte da tabela posso já definir um rodapé, então qual é a informação que vai ficar lá no final, o último dado a ser apresentado na nossa tabela e por mais que ele esteja aqui no meio do código ele vai colocar esse total e o 180 lá na linha final, então ficou aqui embaixo o nosso 180.
+E ainda pode ser colocado o tbody, ou seja, o corpo da nossa tabela com os elementos, com as linhas e colunas respectivas, no caso, aqui é uma tabela de soma de valores do mês de janeiro e fevereiro onde eu vou ter o total.
+Então cada mês eu vou colocar aqui nesse tbody.
